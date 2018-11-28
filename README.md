@@ -1,6 +1,6 @@
 ## SwiftHelpers
 
-A bunch of useful functions and extension.
+A bunch of useful functions and extensions.
 
 ## Installation
 
@@ -9,7 +9,7 @@ Just copy files from 'Source' folder into your project and add them to your targ
 ## Usage:
 #### JSON
 
-Let's say that we have next json:
+Let's say that we have the next json:
 ```Swift
 let json: Dictionary<String, Any>? = ["config": ["info": ["urls": ["url1", "url2"],
                                                           "someKey": "someValue"],
@@ -29,7 +29,7 @@ func firstUrl_standart() -> String {
     return urls[0]
 }
 ```
-Compare it with functional approach:
+Compare it with a functional approach:
 ```Swift
 func firstUrl_functional() -> String {
     let urls: [String]? = extract("urls") § extract("info") § extract("config") § json
@@ -38,7 +38,7 @@ func firstUrl_functional() -> String {
 }
 ```
 
-It looks really shorter and more understandable, isn't it?
+It looks really shorter and more understandable, doesn't it?
 
 #### TODO
 

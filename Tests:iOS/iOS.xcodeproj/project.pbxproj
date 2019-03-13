@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D56367832239118900E18486 /* Castable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56367822239118900E18486 /* Castable.swift */; };
+		D563678A2239184800E18486 /* NSLocking+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56367892239184800E18486 /* NSLocking+Extensions.swift */; };
 		D5A5863521AF13F5004A91EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A5863421AF13F5004A91EF /* AppDelegate.swift */; };
 		D5A5863721AF13F5004A91EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A5863621AF13F5004A91EF /* ViewController.swift */; };
 		D5A5863A21AF13F5004A91EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A5863821AF13F5004A91EF /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		D56367822239118900E18486 /* Castable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Castable.swift; sourceTree = "<group>"; };
+		D56367892239184800E18486 /* NSLocking+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLocking+Extensions.swift"; sourceTree = "<group>"; };
 		D5A5863121AF13F5004A91EF /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A5863421AF13F5004A91EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A5863621AF13F5004A91EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 				D56367822239118900E18486 /* Castable.swift */,
 			);
 			path = Castable;
+			sourceTree = "<group>";
+		};
+		D56367882239183200E18486 /* Locking */ = {
+			isa = PBXGroup;
+			children = (
+				D56367892239184800E18486 /* NSLocking+Extensions.swift */,
+			);
+			path = Locking;
 			sourceTree = "<group>";
 		};
 		D5A5862821AF13F5004A91EF = {
@@ -120,6 +130,7 @@
 		D5A5865421AF1465004A91EF /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D56367882239183200E18486 /* Locking */,
 				D5A5865B21AF1841004A91EF /* Core */,
 				D56367812239116C00E18486 /* Castable */,
 				D5A5865D21AF1867004A91EF /* JSON */,
@@ -254,6 +265,7 @@
 				D5A5863521AF13F5004A91EF /* AppDelegate.swift in Sources */,
 				D5A5865F21AF1877004A91EF /* JSON.swift in Sources */,
 				D5A5866121AF1B3B004A91EF /* Curry.swift in Sources */,
+				D563678A2239184800E18486 /* NSLocking+Extensions.swift in Sources */,
 				D5A5865621AF14DB004A91EF /* Functions.swift in Sources */,
 				D5A5865821AF14EE004A91EF /* PrecedenceGroups.swift in Sources */,
 			);
